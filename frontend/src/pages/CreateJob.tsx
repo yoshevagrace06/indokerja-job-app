@@ -87,7 +87,7 @@ export default function CreateJob() {
   const [submitError, setSubmitError] = useState("");
   const [errors, setErrors] = useState<FormErrors>({});
 
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLFormElement>(null);
 
   const [form, setForm] = useState<FormData>({
     title: "",
